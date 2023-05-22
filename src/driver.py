@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 from cloudshell.cli.service.cli import CLI
 from cloudshell.cli.service.session_pool_manager import SessionPoolManager
 from cloudshell.shell.core.driver_context import InitCommandContext
