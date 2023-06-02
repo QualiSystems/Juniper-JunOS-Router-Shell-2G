@@ -1,5 +1,5 @@
 cloudshell-shell-core~=6.0
 cloudshell-cli~=5.0
-cloudshell-snmp~=4.0
+cloudshell-snmp~=5.0
 cloudshell-networking-juniper~=6.0
 cloudshell-shell-networking-standard~=6.0

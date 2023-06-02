@@ -72,7 +72,7 @@ class JuniperJunOSShellDriver(
                 resource_config, logger, self._cli
             )
             enable_disable_snmp_flow = JuniperEnableDisableSnmpFlow(cli_configurator)
-            snmp_configurator = EnableDisableSnmpConfigurator(
+            snmp_configurator = EnableDisableSnmpConfigurator.from_config(
                 enable_disable_snmp_flow, resource_config, logger
             )
 
