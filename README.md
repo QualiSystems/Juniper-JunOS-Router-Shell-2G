@@ -1,17 +1,12 @@
-[![Build status](https://github.com/QualiSystems/Juniper-JunOS-Router-Shell-2G/workflows/CI/badge.svg?branch=master)](https://github.com/QualiSystems/Juniper-JunOS-Router-Shell-2G/actions?query=branch%3Amaster)
-[![codecov](https://codecov.io/gh/QualiSystems/Juniper-JunOS-Router-Shell-2G/branch/master/graph/badge.svg)](https://codecov.io/gh/QualiSystems/Juniper-JunOS-Router-Shell-2G)
-
-
-
 ![](https://github.com/QualiSystems/cloudshell-shells-documentaion-templates/blob/master/cloudshell_logo.png)
 
 # **Juniper JunOS Router 2G Shell**  
 
-Release date: September 2019
+Release date: June 2023
 
-Shell version: 3.0.1
+Shell version: 4.0.0
 
-Python version: 3.7
+Python version: 3.9
 
 Document version: 1.1
 
@@ -50,9 +45,9 @@ For detailed information about the shell’s structure and attributes, see the [
 
 Release: **Juniper JunOS Router 2G Shell**
 
-▪ CloudShell version: 9.3 the latest patch and above
+▪ CloudShell version: 2022.1 and above
 
-▪ Certified model: Juniper SRX220
+▪ Certified models: Juniper SRX220
 
 **Note:** If your CloudShell version does not support this shell, you should consider upgrading to a later version of CloudShell or contact customer support.
 
@@ -62,7 +57,7 @@ The shell's data model includes all shell metadata, families, and attributes.
 
 #### **Juniper JunOS Router Families and Models**
 
-The Juniper JunOS Router families and models are listed in the following table:
+The Juniper JunOS Router 2G shell families and models are listed in the following table:
 
 |Family|Model|Description|
 |:---|:---|:---|
@@ -81,7 +76,7 @@ The attribute names and types are listed in the following section of the Network
 https://github.com/QualiSystems/cloudshell-standards/blob/master/Documentation/networking_standard.md#attributes
 
 ### Automation
-This section describes the automation (drivers) associated with the data model. The shell’s driver is provided as part of the shell package. There are two types of automation processes, Autoload and Resource.  Autoload is executed when creating the resource in the **Inventory** dashboard, while resource commands are run in the sandbox.
+This section describes the automation (drivers) associated with the data model. The shell’s driver is provided as part of the shell package. There are two types of automation processes, Autoload and Resource. Autoload is executed when creating the resource in the **Inventory** dashboard, while resource commands are run in the sandbox.
 
 The command names and types are listed in the following table:
 
@@ -100,10 +95,11 @@ Download the files into a temporary location on your local machine.
 
 The shell comprises:
 
-|File name|Description|
-|:---|:---|
-|JuniperJunosRouterShell2G.zip|Juniper JunOS Router 2G shell package|
-|cloudshell-networking-juniper-junos2-gen-dependencies-package-2.0.X.zip|Shell Python dependencies (for offline deployments only)|
+| File name                                                                     |Description|
+|:------------------------------------------------------------------------------|:---|
+| Juniper.JunOS.Router.Shell.2G.zip                                             |Juniper JunOS Router 2G shell package|
+| cloudshell-Juniper-JunOS-Router-Shell-2G-dependencies-linux-package-4.0.0.zip |Shell Python dependencies for linux (for offline deployments only)   |
+| cloudshell-Juniper-JunOS-Router-Shell-2G-dependencies-win-package-4.0.0.zip   | Shell Python dependencies for windows (for offline deployments only) |
 
 # Importing and Configuring the Shell
 This section describes how to import the **Juniper JunOS Router 2G** shell and configure and modify the shell’s devices.
